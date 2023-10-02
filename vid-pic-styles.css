@@ -1,0 +1,150 @@
+.button-ctn {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 3.5rem auto;
+}
+
+.videos-btn,
+.pictures-btn {
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: #ddd;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.vid-pic-title h2 {
+  text-align: center;
+  margin: 0 0 2rem;
+  color: #ddd;
+}
+
+.vid-pic-ctn {
+  flex-direction: column;
+}
+
+.vid-pic-ctn div {
+  margin: 3rem 0 0.5rem;
+  text-align: center;
+  width: 80%;
+}
+
+.vid-pic-ctn,
+.category-btn-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.vid-pic-ctn p,
+.vid-pic-ctn div {
+  font-size: 1.5rem;
+}
+
+.vid-pic-ctn iframe {
+  height: 29rem;
+}
+
+.vid-pic-ctn iframe, img {
+  margin-bottom: 0.2rem;
+  width: 80%;
+}
+
+.vid-pic-ctn a {
+  font-size: 2rem;
+  color: #1f1fff
+}
+
+#margin-bottom {
+  margin-bottom: 2rem;
+}
+
+#vid-title {
+  display: none;
+}
+
+#vid-high-altitude {
+  display: none;
+}
+
+#vid-long-distance {
+  display: none;
+}
+
+#vid-documentaries {
+  display: none;
+}
+
+#vid-tides {
+  display: none;
+}
+
+#vid-circumnavigation {
+  display: none;
+}
+
+#pic-title {
+  display: none;
+}
+
+#pic-high-altitude {
+  display: none;
+}
+
+#pic-long-distance {
+  display: none;
+}
+
+#pic-nasa {
+  display: none;
+}
+
+#link-ctn {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .vid-pic-ctn video, img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 425px) {
+  .button-ctn {
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  .category-btn-ctn {
+    margin: 0;
+  }
+
+  .category-btn-ctn button {
+    width: 50%;
+  }
+
+  .vid-pic-ctn div,
+  .vid-pic-ctn p {
+    margin: 1rem 0 0.5rem;
+    font-size: 1rem;
+  }
+
+  .vid-pic-ctn video, img {
+    width: 100%;
+  }
+
+  .vid-pic-ctn a {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 95%;
+  }
+}

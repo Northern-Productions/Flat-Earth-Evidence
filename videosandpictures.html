@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="vid-pic-styles.css">
+    <title>Videos and Pictures</title>
+</head>
+
+<body>
+  
+  <div class="background-vid">
+    <video loop muted autoplay src="./media/LightRays.mp4"></video>
+  </div>
+
+  <div class="header">
+      <h1>Videos and Pictures</h1>
+  </div>
+
+  <div class="nav">
+    <ul class="nav-list">
+      <li class="nav-list-item nav-vidpic">
+        <a href="./index.html">Home</a>
+      </li>
+      <li class="nav-list-item nav-vidpic">
+        <a href="./experiments.html">Experiments</a>
+      </li>
+      <li class="nav-list-item nav-vidpic">
+        <a href="./documents.html">Documents</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="button-ctn">
+      <button id="vid" type="button" class="videos-btn">Videos</button>
+      
+      <button id="pic" type="button" class="pictures-btn">Pictures</button>
+  </div>
+
+  <div id="vid-pic-title" class="vid-pic-title">
+    <h2 id="vid-title">Video Categories</h2>
+    <h2 id="pic-title">Picture Categories</h2>
+  </div>
+
+  <div class="category-btn-ctn">
+    <!-- Video categories -->
+    <button id="vid-high-altitude" class="category-buttons" type="button">
+      High Altitude
+    </button>
+    <button id="vid-long-distance" class="category-buttons" type="button">
+      Long Distance
+    </button>
+    <button id="vid-documentaries" class="category-buttons" type="button">
+      Documentaries
+    </button>
+    <button id="vid-tides" class="category-buttons" type="button">
+      Tides
+    </button>
+    <button id="vid-circumnavigation" class="category-buttons" type="button">
+      Circumnavigation
+    </button>
+
+    <!-- Picture categories -->
+    <button id="pic-high-altitude" class="category-buttons" type="button">
+      High Altitude
+    </button>
+    <button id="pic-long-distance" class="category-buttons" type="button">
+      Long Distance
+    </button>
+    <button id="pic-nasa" class="category-buttons" type="button">
+      NASA
+    </button>
+  </div>
+  
+  <div id="vid-pic-ctn" class="vid-pic-ctn">
+    
+  </div>
+
+
+  <script type="module" src="./vid-pic.js"></script>
+  <script type="module" src="./vidpicdata.js"></script>
+
+</body>
