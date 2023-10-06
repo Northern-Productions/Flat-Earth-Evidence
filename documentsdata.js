@@ -87,7 +87,9 @@ export const nasaDocuments = [
     id: '1',
     title: 'NASA Technical Paper 2768, Page 12',
     pdf: 'flatEarthDocuments/NASA-Documents/doc1-page12.pdf',
-    img: 'media/NASA-document-screenshots/doc-1-page-12.jpg'
+    img: 'media/NASA-document-screenshots/doc-1-page-12.jpg',
+    link: 'https://ntrs.nasa.gov/api/citations/19880012356/downloads/19880012356.pdf',
+    linkTitle: 'NASA.gov'
   },
   {
     id: '2',

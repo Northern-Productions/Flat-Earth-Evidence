@@ -24,6 +24,22 @@
   margin: 3rem 0 1rem;
 }
 
+.pdf-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.pdf-link-container a {
+  margin: 0 auto;
+}
+
+.pdf-link {
+  font-size: 1.5rem;
+  color: #1f1fff;
+}
+
 /* Media queries */
 @media (max-width: 768px) {
   .documents-ctn {
