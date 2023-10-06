@@ -33,6 +33,7 @@ function addPdf(data) {
     const makeLinkToPdf = document.createElement('a');
       makeLinkToPdf.classList.add('pdf-link');
       makeLinkToPdf.href = pdfInfo.link;
+      makeLinkToPdf.target = '_blank';
       makeLinkToPdf.innerHTML = pdfInfo.linkTitle;
 
 
