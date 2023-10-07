@@ -19,7 +19,7 @@
 .vid-pic-title h2 {
   text-align: center;
   margin: 0 0 2rem;
-  color: #ddd;
+  color: #444;
 }
 
 .vid-pic-ctn {
@@ -27,7 +27,7 @@
 }
 
 .vid-pic-ctn div {
-  margin: 3rem 0 0.5rem;
+  margin: 1rem 0 0.5rem;
   text-align: center;
   width: 80%;
 }
@@ -38,12 +38,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
 }
 
 .vid-pic-ctn p,
 .vid-pic-ctn div {
   font-size: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .vid-pic-ctn iframe, img {
@@ -55,6 +55,7 @@
   font-size: 2rem;
   color: #1f1fff;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 #margin-bottom {

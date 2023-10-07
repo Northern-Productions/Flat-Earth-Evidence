@@ -17,6 +17,7 @@ function addPdf(data) {
 
   for (const pdfInfo of data) {
     const makeTitle = document.createElement('div');
+      makeTitle.id = pdfInfo.id;
       makeTitle.classList.add('document-title');
       makeTitle.innerHTML = pdfInfo.title;
     const makePdfPicture = document.createElement('img');

@@ -45,6 +45,10 @@
   .documents-ctn {
     width: 90%;
   }
+
+  .pdf-link-container {
+    width: 65%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -54,11 +58,19 @@
 
   #documents-btn-ctn {
     width: 100%;
-    margin: 1rem auto;
+    margin: 0 auto;
     flex-wrap: wrap;
   }
 
   .documents-ctn {
     width: 100%;
+  }
+
+  .document-title {
+    margin: 1rem 0;
+  }
+
+  .pdf-link-container {
+    width: 85%;
   }
 }
