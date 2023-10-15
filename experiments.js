@@ -16,28 +16,35 @@ function addVideo(data) {
   experimentsContainer.innerHTML = '';
 
   for (const video of data) {
+    //Title of video
     const makeTitle = document.createElement('div');
-    makeTitle.innerHTML = video.title;
+      makeTitle.innerHTML = video.title;
+    //Video
     const makeVideo = document.createElement('iframe');
-    makeVideo.setAttribute('allow', 'autoplay;');
-    makeVideo.setAttribute('allowfullscreen', '');
-    makeVideo.src = video.src;
+      makeVideo.setAttribute('allow', 'autoplay;');
+      makeVideo.setAttribute('allowfullscreen', '');
+      makeVideo.src = video.src;
+    //Link to video
     const makeLink = document.createElement('a');
       makeLink.href = video.link;
       makeLink.target = '_blank';
       makeLink.innerHTML = video.linkTitle;
+    //PDF and link to PDF container
+    const makePdfContainer = document.createElement('div');
+      makePdfContainer.id = 'pdf-ctn';
+    //PDF and link to PDF
     const makePdfLink = document.createElement('a');
-    if (video.pdf) {
       makePdfLink.href = video.pdf;
       makePdfLink.download = video.pdf;
-    }
     const makePdfDownloadButton = document.createElement('button');
-    if (video.pdf) {
       makePdfDownloadButton.classList.add('pdf-download-btn');
       makePdfDownloadButton.id = video.id;
-      makePdfDownloadButton.style.marginTop = '-1rem';
       makePdfDownloadButton.innerHTML = 'Download PDF';
-    }
+    const makeLinkToPdf = document.createElement('a');
+      makeLinkToPdf.classList.add('pdf-link');
+      makeLinkToPdf.href = video.pdfLink;
+      makeLinkToPdf.target = '_blank';
+      makeLinkToPdf.innerHTML = video.pdfLinkTitle;
 
     experimentsContainer.appendChild(makeTitle);
     experimentsContainer.appendChild(makeVideo);
@@ -45,8 +52,10 @@ function addVideo(data) {
       experimentsContainer.appendChild(makeLink);
     }
     if (video.pdf) {
-      experimentsContainer.appendChild(makePdfLink);
+      experimentsContainer.appendChild(makePdfContainer);
+      makePdfContainer.appendChild(makePdfLink);
       makePdfLink.appendChild(makePdfDownloadButton);
+      makePdfContainer.appendChild(makeLinkToPdf);
     }
   }
 };

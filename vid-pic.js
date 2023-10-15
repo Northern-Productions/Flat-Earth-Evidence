@@ -117,7 +117,7 @@ function addPictures(data) {
   }
 }
 
-vidButton.addEventListener('click', () => {
+function addVidCatBtn() {
   vidPicContainer.innerHTML = '';
   vidTitleId.style.display = 'block';
   vidHighAltitudeButton.style.display = 'block';
@@ -129,9 +129,9 @@ vidButton.addEventListener('click', () => {
   picHighAltitudeButton.style.display = 'none';
   picLongDistanceButton.style.display = 'none';
   picNasaButton.style.display = 'none';
-});
+}
 
-picButton.addEventListener('click', () => {
+function addPicCatBtn() {
   vidPicContainer.innerHTML = '';
   vidTitleId.style.display = 'none';
   vidHighAltitudeButton.style.display = 'none';
@@ -143,42 +143,71 @@ picButton.addEventListener('click', () => {
   picHighAltitudeButton.style.display = 'block';
   picLongDistanceButton.style.display = 'block';
   picNasaButton.style.display = 'block';
+}
+
+function removeAllCatBtn() {
+  vidTitleId.style.display = 'none';
+  vidHighAltitudeButton.style.display = 'none';
+  vidLongDistanceButton.style.display = 'none';
+  vidDocumentariesButton.style.display = 'none';
+  vidTidesButton.style.display = 'none';
+  vidCircumnavigationButton.style.display = 'none';
+  picTitleId.style.display = 'none';
+  picHighAltitudeButton.style.display = 'none';
+  picLongDistanceButton.style.display = 'none';
+  picNasaButton.style.display = 'none';
+}
+
+vidButton.addEventListener('click', () => {
+  addVidCatBtn();
+});
+
+picButton.addEventListener('click', () => {
+  addPicCatBtn();
 });
 
 //High Altitude
 vidHighAltitudeButton.addEventListener('click', () => {
   addVideos(highAltitudeVideos);
+  removeAllCatBtn();
 });
 
 picHighAltitudeButton.addEventListener('click', () => {
   addPictures(highAltitudePictures);
+  removeAllCatBtn();
 });
 
 //Long Distance
 vidLongDistanceButton.addEventListener('click', () => {
   addVideos(longDistanceVideos);
+  removeAllCatBtn();
 });
 
 picLongDistanceButton.addEventListener('click', () => {
   addPictures(longDistancePictures);
+  removeAllCatBtn();
 });
 
 //NASA
 picNasaButton.addEventListener('click', () => {
   addPictures(nasaPictures);
+  removeAllCatBtn();
 });
 
 //Documentaries
 vidDocumentariesButton.addEventListener('click', () => {
   addVideos(documentaries);
+  removeAllCatBtn();
 });
 
 //Tides
 vidTidesButton.addEventListener('click', () => {
   addVideos(tideVideos);
+  removeAllCatBtn();
 });
 
 //Circumnavigation/Timezones
 vidCircumnavigationButton.addEventListener('click', () => {
   addVideos(circumnavigation);
+  removeAllCatBtn();
 });

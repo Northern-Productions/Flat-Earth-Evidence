@@ -1,17 +1,25 @@
 export const laserVideos = [
   {
-    title: 'The Greatest Laser Experiment in History',
-    src: 'https://www.bitchute.com/embed/tX7qXMoQcFRR/'
+    title: 'The Greatest Laser Experiment in History Short Version',
+    src: 'https://www.youtube.com/embed/D5zCZvZ9d_Y',
+    link: 'https://www.youtube.com/watch?v=D5zCZvZ9d_Y&t=5s',
+    linkTitle: 'Steve\'s Youtube Channel'
   },
   {
     title: 'The Greatest Laser Experiment in History Full Video',
-    src: 'https://www.bitchute.com/embed/zfPdQvSnRSTR/'
+    src: 'https://www.youtube.com/embed/yREwnIAa6a0',
+    link: 'https://www.youtube.com/watch?v=yREwnIAa6a0&t=2542s',
+    linkTitle: 'FECORE Inc\'s Youtube Channel'
   },
   {
     id: '1',
     title: 'How Einstein Made The Earth Move When All Experiments Showed it Didn\'t',
     src: 'https://www.bitchute.com/embed/zATe7ZrNXmI3/',
-    pdf: 'flatEarthDocuments/Laser-experiments/Albert-Einstein-The-Earth-Mover.pdf'
+    link: 'https://www.youtube.com/watch?v=cVZhY0HGw4Y',
+    linkTitle: 'jeranism\'s Youtube Channel',
+    pdf: 'flatEarthDocuments/Laser-experiments/Albert-Einstein-The-Earth-Mover.pdf',
+    pdfLink: 'https://mega.nz/file/c18gGSyK#01j-b84zXtDIoGdyOVlKrq0nItiUV7NxGbSTGtDhVaU',
+    pdfLinkTitle: 'Link to PDF'
   }
 ];
 

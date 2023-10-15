@@ -93,6 +93,12 @@ export const longDistanceVideos = [
     src: 'https://www.bitchute.com/embed/UU7RTyhYg443/',
     link: 'https://www.youtube.com/watch?v=6VILur8HJsg',
     linkTitle: 'Flat Earth Sun, Moon & Zodiac Clock app\'s Youtube Channel'
+  },
+  {
+    title: 'Great Salt Lake Laser Test - 21 Miles and No Curvature',
+    src: 'https://www.youtube.com/embed/ZsnmX0XRNTk',
+    link: 'https://www.youtube.com/watch?v=ZsnmX0XRNTk',
+    linkTitle: 'Taboo Conspiracy\'s Youtube Channel'
   }
 ];
 
