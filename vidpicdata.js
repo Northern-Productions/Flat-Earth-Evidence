@@ -2,31 +2,31 @@
 export const highAltitudeVideos = [
   {
     title: 'High Altitude Balloon 1 Raw Full uncut Footage, from Dwayne Kellum',
-    src: 'https://www.bitchute.com/embed/vsCxPv6J0qoW/',
+    src: 'https://www.youtube.com/embed/2RATP53l9MA',
     link: 'https://www.youtube.com/watch?v=2RATP53l9MA&t=8522s',
     linkTitle: 'Dwayne Kellum\'s Youtube Channel'
   },
   {
     title: 'High Altitude Balloon 3 (Camera H4), from Dwayne Kellum',
-    src: 'https://www.bitchute.com/embed/x6Q9PLhVotsT/',
+    src: 'https://www.youtube.com/embed/fxBid6YwoHs?list=PL0sgVpl26mTuRnOiBEJYtaFNvr-YAhkz3',
     link: 'https://www.youtube.com/watch?v=fxBid6YwoHs&list=PL0sgVpl26mTuRnOiBEJYtaFNvr-YAhkz3',
     linkTitle: 'Dwayne Kellum\'s Youtube Channel'
   },
   {
     title: 'High Altitude Balloon 15 (Infrared Camera), from Dwayne Kellum',
-    src: 'https://www.bitchute.com/embed/89VRUWqqVqJx/',
+    src: 'https://www.youtube.com/embed/umAgH-0TOz4?list=PL0sgVpl26mTvO-7_nJQGoYFWWmXNPLFNO',
     link: 'https://www.youtube.com/watch?v=umAgH-0TOz4&list=PL0sgVpl26mTvO-7_nJQGoYFWWmXNPLFNO',
     linkTitle: 'Dwayne Kellum\'s Youtube Channel'
   },
   {
     title: 'High Altitude Balloon 18 (Infrared Camera), from Dwayne Kellum',
-    src: 'https://www.bitchute.com/embed/3OWdqZoy3LIQ/',
+    src: 'https://www.youtube.com/embed/G5kRyQStPhU?list=PL0sgVpl26mTsdop41GiJ6DrSXmWkV7PHT',
     link: 'https://www.youtube.com/watch?v=G5kRyQStPhU&list=PL0sgVpl26mTsdop41GiJ6DrSXmWkV7PHT',
     linkTitle: 'Dwayne Kellum\'s Youtube Channel'
   },
   {
     title: 'Globe Earth vs Flat Earth (Balloon Ride to 110,000 feet), from Steve',
-    src: 'https://www.bitchute.com/embed/JbrJuydIxVHm/',
+    src: 'https://www.youtube.com/embed/A9eBGhIFN34',
     link: 'https://www.youtube.com/watch?v=A9eBGhIFN34&t=103s',
     linkTitle: 'Steve\'s Youtube Channel'
   }
@@ -60,37 +60,37 @@ export const highAltitudePictures = [
 export const longDistanceVideos = [
   {
     title: 'LONG DISTANCE PROOFS',
-    src: 'https://www.bitchute.com/embed/HwCKGaBusoRx/',
+    src: 'https://www.youtube.com/embed/NmDJpzvj9Cg',
     link: 'https://www.youtube.com/watch?v=NmDJpzvj9Cg',
     linkTitle: 'SUPPRESSED TRUTH\'s Youtube Channel'
   },
   {
     title: 'Flat Earth Long Distance Photography From Sea Level - Dr John D.',
-    src: 'https://www.bitchute.com/embed/0bSFqs4HMCWo/',
+    src: 'https://www.bitchute.com/embed/aEwja2tfbQTS/',
     link: 'https://www.bitchute.com/video/aEwja2tfbQTS/',
     linkTitle: 'God\'s Flat Earth Bitchute Channel'
   },
   {
     title: 'Refraction 2 - Degrees of Refraction [Dr John D. Mirror]',
-    src: 'https://www.bitchute.com/embed/KKvMEq77gQ2t/',
+    src: 'https://www.youtube.com/embed/TVsVjB-nE48?list=PL_3KXrXym48EW8fFSFQJj7p1sSPQX0YlW',
     link: 'https://www.youtube.com/watch?v=TVsVjB-nE48&list=PL_3KXrXym48EW8fFSFQJj7p1sSPQX0YlW',
     linkTitle: 'Dr John D\'s Youtube Channel'
   },
   {
     title: 'The Black Swan',
-    src: 'https://www.bitchute.com/embed/9i4mbxwzNVVp/',
+    src: 'https://www.youtube.com/embed/R9JPxYOlYoQ?list=PL_3KXrXym48H_ivMtwnlCMJlVgMOzOUpQ',
     link: 'https://www.youtube.com/watch?v=R9JPxYOlYoQ&list=PL_3KXrXym48H_ivMtwnlCMJlVgMOzOUpQ',
     linkTitle: 'Dr John D\'s Youtube Channel'
   },
   {
     title: 'Viewing Rampion Wind Farm from Selsey through a telescope.',
-    src: 'https://www.bitchute.com/embed/Yw9kDHdKu3HV/',
+    src: 'https://www.youtube.com/embed/CCni2Xgk_oM?list=PL_3KXrXym48FrGTtpEFeaqWfkZ_WLkAYY',
     link: 'https://www.youtube.com/watch?v=CCni2Xgk_oM&list=PL_3KXrXym48FrGTtpEFeaqWfkZ_WLkAYY&index=10',
     linkTitle: 'Dr John D\'s Youtube Channel'
   },
   {
     title: '830 Miles - World Record - Flat Earth Proof (LoRa)',
-    src: 'https://www.bitchute.com/embed/UU7RTyhYg443/',
+    src: 'https://www.youtube.com/embed/6VILur8HJsg',
     link: 'https://www.youtube.com/watch?v=6VILur8HJsg',
     linkTitle: 'Flat Earth Sun, Moon & Zodiac Clock app\'s Youtube Channel'
   },
@@ -202,31 +202,31 @@ export const nasaPictures = [
 export const documentaries = [
   {
     title: 'LEVEL  2021',
-    src: 'https://www.bitchute.com/embed/bIPPmGf4QeuJ/',
+    src: 'https://www.bitchute.com/embed/4SiTwJSONQk9/',
     link: 'https://www.bitchute.com/video/4SiTwJSONQk9/',
     linkTitle: 'GreatAwakening.World - Truths & Secrets Exposed\'s Bitchute Channel'
   },
   {
     title: 'THE NEXT LEVEL 2022',
-    src: 'https://www.bitchute.com/embed/aI90AzcgCrlq/',
+    src: 'https://www.bitchute.com/embed/ZzBBX25xdK1h/',
     link: 'https://www.bitchute.com/video/ZzBBX25xdK1h/',
     linkTitle: 'GreatAwakening.World - Truths & Secrets Exposed\'s Bitchute Channel'
   },
   {
     title: 'LEVEL WITH ME 2023',
-    src: 'https://www.bitchute.com/embed/4zin7CMwmaYh/',
+    src: 'https://www.bitchute.com/embed/Qnmdzhg7OvcV/',
     link: 'https://www.bitchute.com/video/Qnmdzhg7OvcV/',
     linkTitle: 'GreatAwakening.World - Truths & Secrets Exposed\'s Bitchute Channel'
   },
   {
     title: 'The Best Flat Earth Documentary',
-    src: 'https://www.bitchute.com/embed/0iA26aittbFS/',
+    src: 'https://www.youtube.com/embed/zFAwRbKLYEo?list=PLUrnnkvyMBf-2pdV3J5wNUDh7NFvLfJ2h',
     link: 'https://www.youtube.com/watch?v=zFAwRbKLYEo&list=PLUrnnkvyMBf-2pdV3J5wNUDh7NFvLfJ2h&index=74',
     linkTitle: 'Eric Dubay\'s Youtube Channel'
   },
   {
     title: 'THE TRUTH IN PLANE SIGHT 2018',
-    src: 'https://www.bitchute.com/embed/oRssb6Xim9Ex/',
+    src: 'https://www.bitchute.com/embed/lX4N1hGs6zwY/',
     link: 'https://www.bitchute.com/video/lX4N1hGs6zwY/',
     linkTitle: 'Perplexed Perceptions\'s Bitchute Channel'
   }
@@ -235,19 +235,19 @@ export const documentaries = [
 export const tideVideos = [
   {
     title: 'Tides Explained on Flat Earth',
-    src: 'https://www.bitchute.com/embed/rBAovk1pdZkg/',
+    src: 'https://www.youtube.com/embed/_DfglyU0Rtw',
     link: 'https://www.youtube.com/watch?v=_DfglyU0Rtw&t=335s',
     linkTitle: 'Zooming in on stuff\'s Youtube Channel'
   },
   {
     title: 'Cause of the Tides',
-    src: 'https://www.bitchute.com/embed/ZLsDYVHiaJea/',
+    src: 'https://www.youtube.com/embed/-1cA0DcrHJ0',
     link: 'https://www.youtube.com/watch?v=-1cA0DcrHJ0&t=222s',
     linkTitle: 'Eric Dubay\'s Youtube Channel'
   },
   {
     title: 'Where are the solar tides?',
-    src: 'https://www.bitchute.com/embed/TAWqtTJRZJHX/',
+    src: 'https://www.youtube.com/embed/K60yVENqCsk',
     link: 'https://www.youtube.com/watch?v=K60yVENqCsk&t=380s',
     linkTitle: 'Flat Earth and Coffee\'s Youtube Channel'
   },
@@ -262,13 +262,13 @@ export const tideVideos = [
 export const circumnavigation = [
   {
     title: 'Circumnavigation and Time-Zones',
-    src: 'https://www.bitchute.com/embed/zsdJHtodjz0J/',
+    src: 'https://www.youtube.com/embed/6ir5_nipt7s',
     link: 'https://www.youtube.com/watch?v=6ir5_nipt7s&t=13s',
     linkTitle: 'Eric Dubay\'s Youtube Channel'
   },
   {
     title: 'Time Zones And Star Trails',
-    src: 'https://www.bitchute.com/embed/IjzXM29BhNZN/',
+    src: 'https://www.youtube.com/embed/UEmV6uwcreM',
     link: 'https://www.youtube.com/watch?v=UEmV6uwcreM',
     linkTitle: 'Svet Laži\'s Youtube Channel'
   }

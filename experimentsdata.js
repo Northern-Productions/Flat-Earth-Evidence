@@ -14,7 +14,7 @@ export const laserVideos = [
   {
     id: '1',
     title: 'How Einstein Made The Earth Move When All Experiments Showed it Didn\'t',
-    src: 'https://www.bitchute.com/embed/zATe7ZrNXmI3/',
+    src: 'https://www.youtube.com/embed/cVZhY0HGw4Y',
     link: 'https://www.youtube.com/watch?v=cVZhY0HGw4Y',
     linkTitle: 'jeranism\'s Youtube Channel',
     pdf: 'flatEarthDocuments/Laser-experiments/Albert-Einstein-The-Earth-Mover.pdf',
@@ -27,7 +27,7 @@ export const laserVideos = [
 export const constructionVideos = [
   {
     title: 'The Ultimate Flat Earth Experiment',
-    src: 'https://www.bitchute.com/embed/v7Zl0RRB0e8D/',
+    src: 'https://www.youtube.com/embed/4V7Z0SZftl0?list=PLUrnnkvyMBf-2pdV3J5wNUDh7NFvLfJ2h',
     link: 'https://www.youtube.com/watch?v=4V7Z0SZftl0&list=PLUrnnkvyMBf-2pdV3J5wNUDh7NFvLfJ2h&index=57',
     linkTitle: 'Eric Dubay\'s Youtube Channel'
   }
@@ -37,13 +37,13 @@ export const constructionVideos = [
 export const bedfordVideos = [
   {
     title: 'Bedford Level Experiment 2016',
-    src: 'https://www.bitchute.com/embed/akIDBlyGiyKA/',
+    src: 'https://www.bitchute.com/embed/5yml1Z2MPa6C/',
     link: 'https://www.bitchute.com/video/5yml1Z2MPa6C/',
     linkTitle: '@THESOURCE1994\'s Bitchute Channel'
   },
   {
     title: 'BEDFORD LEVEL EXPERIMENT READING',
-    src: 'https://www.bitchute.com/embed/FOlmhnGTR1SG/',
+    src: 'https://www.bitchute.com/embed/V9kytmd2x8Ph/',
     link: 'https://www.bitchute.com/video/V9kytmd2x8Ph/',
     linkTitle: 'JoshuaVN\'s Bitchute Channel'
   }

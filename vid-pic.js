@@ -162,10 +162,12 @@ function removeAllCatBtn() {
 
 //Main buttons
 vidButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
   addVidCatBtn();
 });
 
 picButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
   addPicCatBtn();
 });
 
