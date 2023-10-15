@@ -58,7 +58,7 @@
 
   #documents-btn-ctn {
     width: 100%;
-    margin: 0 auto;
+    margin: 1rem auto -1rem;
     flex-wrap: wrap;
   }
 

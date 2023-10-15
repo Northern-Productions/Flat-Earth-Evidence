@@ -13,6 +13,8 @@ const vidButton = document.getElementById('vid');
 
 const picButton = document.getElementById('pic');
 
+const vidPicCtnTitle = document.getElementById('vid-pic-ctn-title')
+
 const vidPicContainer = document.getElementById('vid-pic-ctn');
 
 const vidTitleId = document.getElementById('vid-title');
@@ -158,6 +160,7 @@ function removeAllCatBtn() {
   picNasaButton.style.display = 'none';
 }
 
+//Main buttons
 vidButton.addEventListener('click', () => {
   addVidCatBtn();
 });
@@ -166,48 +169,81 @@ picButton.addEventListener('click', () => {
   addPicCatBtn();
 });
 
+//Category buttons
 //High Altitude
 vidHighAltitudeButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
+  const catTitle = document.createElement('h2');
+    catTitle.innerHTML = 'High Altitude Videos'
+  vidPicCtnTitle.appendChild(catTitle);
   addVideos(highAltitudeVideos);
   removeAllCatBtn();
 });
 
 picHighAltitudeButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
+  const catTitle = document.createElement('h2');
+    catTitle.innerHTML = 'High Altitude Pictures'
+  vidPicCtnTitle.appendChild(catTitle);
   addPictures(highAltitudePictures);
   removeAllCatBtn();
 });
 
 //Long Distance
 vidLongDistanceButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
+  const catTitle = document.createElement('h2');
+    catTitle.innerHTML = 'Long Distance Videos'
+  vidPicCtnTitle.appendChild(catTitle);
   addVideos(longDistanceVideos);
   removeAllCatBtn();
 });
 
 picLongDistanceButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
+  const catTitle = document.createElement('h2');
+    catTitle.innerHTML = 'Long Distance Pictures'
+  vidPicCtnTitle.appendChild(catTitle);
   addPictures(longDistancePictures);
   removeAllCatBtn();
 });
 
 //NASA
 picNasaButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
+  const catTitle = document.createElement('h2');
+    catTitle.innerHTML = 'NASA Pictures'
+  vidPicCtnTitle.appendChild(catTitle);
   addPictures(nasaPictures);
   removeAllCatBtn();
 });
 
 //Documentaries
 vidDocumentariesButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
+  const catTitle = document.createElement('h2');
+    catTitle.innerHTML = 'Documentaries'
+  vidPicCtnTitle.appendChild(catTitle);
   addVideos(documentaries);
   removeAllCatBtn();
 });
 
 //Tides
 vidTidesButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
+  const catTitle = document.createElement('h2');
+    catTitle.innerHTML = 'Tide Videos'
+  vidPicCtnTitle.appendChild(catTitle);
   addVideos(tideVideos);
   removeAllCatBtn();
 });
 
 //Circumnavigation/Timezones
 vidCircumnavigationButton.addEventListener('click', () => {
+  vidPicCtnTitle.innerHTML = '';
+  const catTitle = document.createElement('h2');
+    catTitle.innerHTML = 'Circumnavigation'
+  vidPicCtnTitle.appendChild(catTitle);
   addVideos(circumnavigation);
   removeAllCatBtn();
 });

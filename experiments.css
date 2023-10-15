@@ -87,7 +87,7 @@
 
   #experiments-btn-ctn {
     width: 100%;
-    margin: 1rem auto;
+    margin: 1rem auto -2rem;
     flex-wrap: wrap;
   }
 }
