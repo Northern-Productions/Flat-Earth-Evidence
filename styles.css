@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -88,6 +93,21 @@ body {
 
 .pdf-download-btn:hover {
   text-decoration: underline;
+  color: blue;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+  text-align: right;
+  margin: 0;
+  padding: 0 1rem;
+  border-radius: 15px 0 0;
+  background-color: #ffffff87;
+}
+
+.footer a {
   color: blue;
 }
 

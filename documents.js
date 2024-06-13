@@ -1,42 +1,42 @@
 import {
   ciaDocuments,
   militaryDocuments,
-  nasaDocuments
-} from "./documentsdata.js"
+  nasaDocuments,
+} from "./documentsdata.js";
 
-const ciaButton = document.getElementById('cia');
+const ciaButton = document.getElementById("cia");
 
-const militaryButton = document.getElementById('military');
+const militaryButton = document.getElementById("military");
 
-const nasaButton = document.getElementById('nasa');
+const nasaButton = document.getElementById("nasa");
 
-const documentsContainer = document.getElementById('documents-ctn');
+const documentsContainer = document.getElementById("documents-ctn");
 
 function addPdf(data) {
-  documentsContainer.innerHTML = '';
+  documentsContainer.innerHTML = "";
 
   for (const pdfInfo of data) {
-    const makeTitle = document.createElement('div');
-      makeTitle.id = pdfInfo.id;
-      makeTitle.classList.add('document-title');
-      makeTitle.innerHTML = pdfInfo.title;
-    const makePdfPicture = document.createElement('img');
-      makePdfPicture.src = pdfInfo.img;
-    const makeLinkContainer = document.createElement('div');
-      makeLinkContainer.classList.add('pdf-link-container');
-    const makeLink = document.createElement('a');
-      makeLink.href = pdfInfo.pdf;
-      makeLink.download = pdfInfo.pdf;
-    const makeDownloadButton = document.createElement('button');
-      makeDownloadButton.classList.add('pdf-download-btn');
-      makeDownloadButton.id = pdfInfo.id;
-      makeDownloadButton.innerHTML = 'Download PDF';
-    const makeLinkToPdf = document.createElement('a');
-      makeLinkToPdf.classList.add('pdf-link');
-      makeLinkToPdf.href = pdfInfo.link;
-      makeLinkToPdf.target = '_blank';
-      makeLinkToPdf.innerHTML = pdfInfo.linkTitle;
-
+    const makeTitle = document.createElement("div");
+    makeTitle.id = pdfInfo.id;
+    makeTitle.classList.add("document-title");
+    makeTitle.innerHTML = pdfInfo.title;
+    makeTitle.setAttribute("tabindex", "0");
+    const makePdfPicture = document.createElement("img");
+    makePdfPicture.src = pdfInfo.img;
+    const makeLinkContainer = document.createElement("div");
+    makeLinkContainer.classList.add("pdf-link-container");
+    const makeLink = document.createElement("a");
+    makeLink.href = pdfInfo.pdf;
+    makeLink.download = pdfInfo.pdf;
+    const makeDownloadButton = document.createElement("button");
+    makeDownloadButton.classList.add("pdf-download-btn");
+    makeDownloadButton.id = pdfInfo.id;
+    makeDownloadButton.innerHTML = "Download PDF";
+    const makeLinkToPdf = document.createElement("a");
+    makeLinkToPdf.classList.add("pdf-link");
+    makeLinkToPdf.href = pdfInfo.link;
+    makeLinkToPdf.target = "_blank";
+    makeLinkToPdf.innerHTML = pdfInfo.linkTitle;
 
     documentsContainer.appendChild(makeTitle);
     documentsContainer.appendChild(makePdfPicture);
@@ -47,16 +47,16 @@ function addPdf(data) {
       makeLinkContainer.appendChild(makeLinkToPdf);
     }
   }
-};
+}
 
-ciaButton.addEventListener('click', () => {
+ciaButton.addEventListener("click", () => {
   addPdf(ciaDocuments);
 });
 
-militaryButton.addEventListener('click', () => {
+militaryButton.addEventListener("click", () => {
   addPdf(militaryDocuments);
 });
 
-nasaButton.addEventListener('click', () => {
+nasaButton.addEventListener("click", () => {
   addPdf(nasaDocuments);
 });
