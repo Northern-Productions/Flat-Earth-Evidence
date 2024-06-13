@@ -12,6 +12,18 @@ const nasaButton = document.getElementById("nasa");
 
 const documentsContainer = document.getElementById("documents-ctn");
 
+window.onload = function () {
+  var video = document.querySelector(".background-vid video");
+
+  // Hide the body content initially
+  document.body.style.display = "none";
+
+  video.oncanplaythrough = function () {
+    // When the video can play through, display the body content
+    document.body.style.display = "block";
+  };
+};
+
 function addPdf(data) {
   documentsContainer.innerHTML = "";
 
